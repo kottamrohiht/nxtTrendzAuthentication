@@ -1,0 +1,110 @@
+.header-main-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nxt-trends-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+@media (min-width: 568px) {
+  .nxt-trends-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.nxt-trends-wesite-logo {
+  width: 30%;
+}
+
+@media (min-width: 568px) {
+  .nxt-trends-wesite-logo {
+    width: 15%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.nxt-trends-logo {
+  height: 25px;
+  width: 25px;
+}
+
+@media (min-width: 568px) {
+  .nxt-trends-logo {
+    display: none;
+  }
+}
+
+.nav-img-sm-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #e6f6ff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media (min-width: 568px) {
+  .nav-img-sm-container {
+    display: none;
+  }
+}
+
+.navhome {
+  height: 25px;
+  width: 25px;
+}
+
+.nxt-trend-lg-link-container {
+  display: none;
+}
+
+@media (min-width: 568px) {
+  .nxt-trend-lg-link-container {
+    display: flex;
+    align-items: center;
+    width: 20%;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+  }
+}
+
+.header-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: white;
+  background-color: #0967d2;
+  border-radius: 5px;
+  border: 0px;
+  cursor: pointer;
+  outline: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
